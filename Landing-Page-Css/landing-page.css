@@ -1,0 +1,284 @@
+/*===== after header section desgin ======== */
+
+.offers-main{
+    position: absolute;
+      top:12%;
+      left: 5%;
+      margin-right: 40px;
+      background-color: rgb(199, 204, 180);
+       height: 64vh;
+       width:90%;
+   }
+   
+   
+   .offer-girls-image{
+   position: relative;
+   left: 59%;
+   
+   }
+   
+   .offer-paragraph{
+   position: relative;
+   top:-350px;
+   left: 100px;
+   font-size: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(6, 136, 6);
+   }
+   
+  
+   .offer-paragraph-1 a{
+    position: relative;
+   top:-300px;
+   left: 230px;
+   font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   text-decoration: none;
+   background: rgb(192, 14, 153);
+   border: 1px solid rgb(255, 0, 221);
+   border-radius: 20px;
+   padding: 10px;
+   
+   
+   }
+   .offer-paragraph-1 a:hover{
+       background-color: red;
+       border: 1px solid red;
+   }
+  
+
+   
+
+/* ====== Products section design =======  */
+#Products {
+  margin-top: 40%;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.products-main-container-text-images{
+  width: 100%;
+  height: 200vh;
+  background-color: #9371a0;
+ }
+ 
+.products-main-container{
+  background: rgb(235, 224, 224);
+  width: 100%;
+  height: 60vh;
+  margin-top: 30px;
+}
+
+.products-main-container-details{
+  display: flex;
+  
+}
+.products-main-container-div-1{
+  border: 2px solid rgb(245, 131, 239);
+  background-color: #9371a0;
+  width: 20%;
+  border-radius: 20px;
+  height: 50vh;
+  margin-left: 5%;
+  margin-top: 20px;
+  
+}
+.products-main-container-div-2{
+  border: 2px solid rgb(245, 131, 239);
+  background-color: #9371a0;
+  border-radius: 20px;
+  width: 20%;
+  height: 50vh;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+.products-main-container-div-3{
+  border: 2px solid rgb(245, 131, 239);
+  background-color: #9371a0;
+  border-radius: 20px;
+  width: 20%;
+  height: 50vh;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+   /*==== offers section design ===== */
+
+#Offers{
+  margin-top: 20%;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*====== Services Section design and develop section ====== */
+
+#Services{
+  margin-top: 20%;
+}
+
+.services-main-heading{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.services-main-container{
+  background: rgb(235, 224, 224);
+  width: 100%;
+  height: 60vh;
+  margin-top: 30px;
+}
+
+.services-main-container-details{
+  display: flex;
+  
+}
+.services-main-container-div-1{
+  border: 2px solid rgb(245, 131, 239);
+  background-color: #9371a0;
+  width: 20%;
+  border-radius: 20px;
+  height: 50vh;
+  margin-left: 5%;
+  margin-top: 20px;
+  
+}
+.services-main-container-div-2{
+  border: 2px solid rgb(245, 131, 239);
+  background-color: #9371a0;
+  border-radius: 20px;
+  width: 20%;
+  height: 50vh;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+.services-main-container-div-3{
+  border: 2px solid rgb(245, 131, 239);
+  background-color: #9371a0;
+  border-radius: 20px;
+  width: 20%;
+  height: 50vh;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+/*====== Partners section design==== */
+
+#Partners{
+ margin-top: 20%;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.partner-main-container-details{
+margin-top: 20px;
+background: #04AA6D;
+}
+.partner-setion-compinies-image{
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+
+
+
+
+/* ======= contact form section design ======= */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top:10%;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+  /* footer section design and develop */
+
+  .footer-section{
+    background: #333;
+    width: 100%;
+    height: 30vh;
+  }
+  
+  .footer-section-container{
+    position:relative;
+    top: 30%;
+    color: burlywood;
+  }
+.footer-details-heading{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}

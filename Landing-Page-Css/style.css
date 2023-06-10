@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+/* ====== NAVBAR DESIGN ======== */
+#header-design{
+     
+    background-color:#43a8af;  
+    width: 100%;
+    height: 80px;
+    margin-top: -10px;
+
+}
+
+
+.navbar-design ul{
+   position: relative;
+   top: -25px;
+    list-style-type: none; 
+    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+padding-right: 50px;    
+
+}
+
+.navbar-design ul li{
+display: inline-block;
+}
+
+
+.navbar-design ul li a{
+    
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(188, 199, 211);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    
+}
+.navbar-design ul li a:hover{
+color: rgb(92, 19, 121);
+cursor: pointer;
+border-bottom: 3px solid rgb(180, 61, 145);
+border-radius: 4px;
+transition: 0.6s;
+
+}
+
+.logo-design{
+
+    display: inline-flex;
+    position: relative;
+    top: 7px;
+    left: 10px;
+
+}
+.logo-image{
+    position: relative;
+    top: 10px;
+    width: 170px;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
